@@ -1,0 +1,11 @@
+:root {
+  --main-color: #880808;
+}
+
+.login {
+  margin: 50px;
+}
+.login input {
+  margin-left: 20px;
+  margin-right: 20px;
+}
