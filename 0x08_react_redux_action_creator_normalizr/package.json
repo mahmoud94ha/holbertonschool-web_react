@@ -1,0 +1,12 @@
+{
+  "name": "react_normalizr",
+  "version": "1.0.0",
+  "description": "react normalizr 0x08 task",
+  "main": "",
+  "scripts": {},
+  "author": "Mahmoud",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  }
+}
