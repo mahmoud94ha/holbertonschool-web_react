@@ -24,13 +24,13 @@ export function getAllNotificationsByUser(userId) {
   const notifications = normalizedData.entities.notifications;
   const messages = normalizedData.entities.messages;
 
-  const notificationsByUser = [];
+  const userNotifications = [];
 
   for (const property in notifications) {
     if (notifications[property].author === userId) {
-      notificationsByUser.push(messages[notifications[property].context]);
+      userNotifications.push(messages[notifications[property].context]);
     }
   }
 
-  return notificationsByUser;
+  return userNotifications;
 }
